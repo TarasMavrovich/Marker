@@ -7,10 +7,9 @@ import {
   addDoc,
   serverTimestamp,
 } from "firebase/firestore";
-import { API_KEY } from "./apiKey/apiKey.jsx";
 
 const firebaseConfig = {
-  apiKey: API_KEY,
+  apiKey: "AIzaSyCLdZHeJ90Xd3I8DUPRAJWAUC57DXHLZoo",
   authDomain: "my-first-app-4f6fb.firebaseapp.com",
   projectId: "my-first-app-4f6fb",
   storageBucket: "my-first-app-4f6fb.appspot.com",
